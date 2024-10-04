@@ -66,31 +66,35 @@ It is more convoluted than it should be, but I cannot be asked to make it more u
 ## LSTM Model
 
 This section covers the **LSTM model**  we used to generate poems. The model is implemented in the **`LSTM_model.ipynb`** notebook.
-raining and Using the LSTM Model
-The LSTM model is implemented in the Jupyter Notebook LSTM_model.ipynb. The notebook includes steps for loading the processed data, building the LSTM model, and training it to generate poetry.
 
-*Steps for training the model:*
-Open the LSTM_model.ipynb file in Jupyter Notebook.
-Follow the instructions in the notebook to:
-Load the preprocessed poem data from cleaned_poems.json.
-Define and compile the LSTM model.
-Train the model on the dataset.
-Generate new poetry based on a seed text.
-Generating Poetry:
+The LSTM model is implemented in the Jupyter Notebook `LSTM_model.ipynb`. The notebook includes steps for loading the processed data, building the LSTM model, and training it to generate poetry.
+
+**Steps for training the model:**
+1. Open the `LSTM_model.ipynb` file in Jupyter Notebook.
+2. Follow the instructions in the notebook to:
+3. Load the preprocessed poem data from `cleaned_poems.json`.
+4. Define and compile the LSTM model.
+5. Train the model on the dataset.
+6. Generate new poetry based on a seed text.
+
+
+**Generating Poetry:**
 Once the model is trained, you can use it to generate new poetic sequences. In the notebook, there's a section that takes a seed text as input and generates a sequence of words using the trained model. You can customize:
 
-seed_text: The starting phrase for the poem.
-next_words: The number of words to generate after the seed.
+`seed_text`: The starting phrase for the poem.
+`next_words:` The number of words to generate after the seed.
 
 
 Running the Notebook:
 To run the notebook, launch Jupyter Notebook from your terminal:
 
 jupyter notebook
-Open the LSTM_model.ipynb file and run the cells sequentially to train and test the model.
+Open the `LSTM_model.ipynb` file and run the cells sequentially to train and test the model.
 
 Future Improvements
 Extend the dataset to include more poets or different styles of poetry.
 Experiment with different LSTM architectures and hyperparameters for improved performance.
 Implement more advanced text generation techniques such as Transformer-based models.
+
+
 
