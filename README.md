@@ -79,8 +79,8 @@ Generate new poetry based on a seed text.
 Generating Poetry:
 Once the model is trained, you can use it to generate new poetic sequences. In the notebook, there's a section that takes a seed text as input and generates a sequence of words using the trained model. You can customize:
 
-seed_text: The starting phrase for the poem.
-next_words: The number of words to generate after the seed.
+`seed_text`: The starting phrase for the poem.
+`next_words:` The number of words to generate after the seed.
 
 
 Running the Notebook:
@@ -93,4 +93,6 @@ Future Improvements
 Extend the dataset to include more poets or different styles of poetry.
 Experiment with different LSTM architectures and hyperparameters for improved performance.
 Implement more advanced text generation techniques such as Transformer-based models.
+
+
 
