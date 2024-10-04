@@ -70,7 +70,7 @@ raining and Using the LSTM Model
 The LSTM model is implemented in the Jupyter Notebook LSTM_model.ipynb. The notebook includes steps for loading the processed data, building the LSTM model, and training it to generate poetry.
 
 *Steps for training the model:*
-Open the LSTM_model.ipynb file in Jupyter Notebook.
+Open the `LSTM_model.ipynb` file in Jupyter Notebook.
 Follow the instructions in the notebook to:
 Load the preprocessed poem data from cleaned_poems.json.
 Define and compile the LSTM model.
