@@ -87,7 +87,7 @@ Running the Notebook:
 To run the notebook, launch Jupyter Notebook from your terminal:
 
 jupyter notebook
-Open the LSTM_model.ipynb file and run the cells sequentially to train and test the model.
+Open the `LSTM_model.ipynb` file and run the cells sequentially to train and test the model.
 
 Future Improvements
 Extend the dataset to include more poets or different styles of poetry.
