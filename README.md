@@ -62,3 +62,9 @@ you are using a 1st order model, set the `order`= 1. If you are using a 3rd orde
 
 It is more convoluted than it should be, but I cannot be asked to make it more user-friendly at this point in time.
 
+
+## My LSTM Model
+
+This section covers the **LSTM model**  we used to generate poems. The model is implemented in the **`LSTM_model.ipynb`** notebook.
+
+
